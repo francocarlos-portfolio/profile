@@ -1,0 +1,378 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Ingeniería Civil | Portfolio Franco Carlos </title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icono_web.ico">
+
+    </head>
+    <body>
+
+    <!-- Botón flotante multisección -->
+    <div class="floating-nav">
+        <!-- Botón principal (teléfono) -->
+        <div class="floating-main">
+            <div class="floating-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <span class="floating-label">Índice</span>
+        </div>
+        
+        <!-- Menú desplegable horizontal -->
+        <div class="floating-menu">
+            <a href="#sobre-mi" class="floating-item" data-section="sobre-mi">
+                <i class="fas fa-user"></i>
+                <span>Sobre mí</span>
+            </a>
+            <a href="#curriculum" class="floating-item" data-section="curriculum">
+                <i class="fas fa-file-alt"></i>
+                <span>Currículum</span>
+            </a>
+            <a href="#contacto" class="floating-item" data-section="contacto">
+                <i class="fas fa-envelope"></i>
+                <span>Contacto</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- PORTADA con render y frase -->
+    <div class="hero">
+    <img class="hero-bg" src="imagen_portada.jpg" alt="Render arquitectónico">
+    <div class="hero-content">
+        <h1>Franco Carlos· Ingeniería Civil</h1>
+        <div class="frase">"Crear espacios que cuentan historias, donde la luz y la materia dialogan"</div>
+    </div>
+    </div>
+
+    <!-- Introducción estilo "Damilee.com" (sobre mí) -->
+    <section id = "sobre-mi" class="about-section">
+    <div class="container">
+        <div class="about-card">
+        
+        <!-- Encabezado con ícono decorativo -->
+        <div class="section-header">
+            <span class="section-badge">Presentación</span>
+            <h2>
+            <!-- <i class="fas fa-drafting-compass"></i> Sobre mí -->
+            </h2>
+            <div class="section-line"></div>
+        </div>
+    
+        
+<!-- Contenido principal con imagen y texto -->
+<div class="about-content">
+ <div class="about-text">
+  <h3 class="about-name">Franco Adrián Carlos</h3>
+  <p class="about-title">MAESTRO MAYOR DE OBRAS · INGENIERÍA CIVIL <span class="badge">4to año</span></p>
+  
+  <div class="about-description">
+    <p>Soy Maestro Mayor de Obras y estudiante avanzado de Ingeniería Civil (UTN-FRC), con formación técnica orientada al análisis estructural, la gestión de documentación y el control de infraestructura. De perfil analítico y apasionado por el rigor técnico, el cálculo y la resolución de problemas constructivos. Busco integrarme a un equipo técnico donde pueda aplicar mi capacidad operativa en proyectos de ingeniería y seguir expandiendo mi especialización profesional.</p>
+  </div>
+  
+  <div class="about-signature">
+    <div class="sign-line"></div>
+    <p class="about-sign">— Franco Adrián Carlos, MMO · Estudiante de Ingeniería Civil</p>
+  </div>
+</div>           
+            <div class="about-avatar">
+            <div class="avatar-frame">
+                <img src="imagen_fran.jpeg" alt="Franco Adrián Carlos">
+            </div>
+            <!-- Pequeño detalle decorativo -->
+            <div class="avatar-decoration">
+                <!-- <i class="fas fa-ruler-combined"></i> -->
+            </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Sección de premios y distinciones -->
+
+    <!-- Sección de curriculum -->
+    <section id="curriculum" class="curriculum-section">
+        <div class="container">
+            
+            <!-- Encabezado consistente con las otras secciones -->
+            <div class="section-header">
+                <span class="section-badge">Trayectoria</span>
+                <h2>
+                    <i class="fas fa-file-alt"></i> Curriculum · Resumido
+                </h2>
+                <div class="section-line"></div>
+                
+            </div>
+            
+            <!-- Sistema de pestañas mejorado -->
+            <div class="cv-tabs-container">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="formacion">
+                        <i class="fas fa-graduation-cap"></i> Formación
+                    </button>
+                    <button class="tab-btn" data-tab="experiencia">
+                        <i class="fas fa-briefcase"></i> Experiencia
+                    </button>
+                    <button class="tab-btn" data-tab="habilidades">
+                        <i class="fas fa-code"></i> Habilidades
+                    </button>
+                </div>
+                
+                <!-- Formación -->
+<div class="tab-content active-tab" id="formacion">
+    <div class="cv-timeline">
+        <div class="cv-item">
+            <div class="cv-icon">🏗️</div>
+            <div class="cv-content">
+                <h4>Ingeniería Civil · Universidad Tecnológica Nacional (UTN-FRC)</h4>
+                <span class="date">2023 – Actualidad · 4to año en curso</span>
+                <p>Formación orientada al cálculo estructural, infraestructuras hidráulicas y viales, con sólido rigor técnico.</p>
+            </div>
+        </div>
+        
+        <div class="cv-item">
+            <div class="cv-icon">🎓</div>
+            <div class="cv-content">
+                <h4>Maestro Mayor de Obras</h4>
+                <span class="date">I.P.E.T. N°339 · Villa Giardino</span>
+                <p>Título técnico nacional. Formación integral en diseño de estructuras, instalaciones y dirección de obras civiles.</p>
+            </div>
+        </div>
+        
+        <div class="cv-item">
+            <div class="cv-icon">🌐</div>
+            <div class="cv-content">
+                <h4>Inglés Técnico y Comunicacional</h4>
+                <span class="date">Nivel Avanzado</span>
+                <p>Capacidad para interpretación de manuales técnicos, normativas internacionales y comunicación fluida.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tab-content" id="experiencia">
+    <div class="cv-timeline">
+        <div class="cv-item">
+            <div class="cv-icon">🏛️</div>
+            <div class="cv-content">
+                <h4>Participación Técnica · Municipalidad de La Falda</h4>
+                <span class="date">2022</span>
+                <p>Control de planos y documentación técnica en la Dirección de Obras Públicas. Relevamientos y apoyo en gestión de infraestructura urbana.</p>
+            </div>
+        </div>
+        
+        <div class="cv-item">
+            <div class="cv-icon">📊</div>
+            <div class="cv-content">
+                <h4>Desarrollo Técnico · UTN Córdoba</h4>
+                <span class="date">2023 – Actualidad</span>
+                <p>Elaboración de memorias de cálculo, cómputos métricos detallados y presupuestos estimativos en proyectos de simulación académica profesional.</p>
+            </div>
+        </div>
+        
+        <div class="cv-item">
+            <div class="cv-icon">📐</div>
+            <div class="cv-content">
+                <h4>Prácticas Técnicas · IPET N°339</h4>
+                <span class="date">2022</span>
+                <p>Supervisión de prácticas constructivas, diseño de planos bajo normativa edilicia y ejecución de relevamientos de campo.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tab-content" id="habilidades">
+    <div class="skills-category">
+        <h4 class="skills-title"><span class="skill-badge advanced">Avanzado</span> Software y Técnica</h4>
+        <div class="skills-list">
+            <span class="skill-tag">AutoCAD (2D/3D)</span>
+            <span class="skill-tag">Microsoft Excel (Avanzado)</span>
+            <span class="skill-tag">Cómputos Métricos</span>
+            <span class="skill-tag">Interpretación de Planos</span>
+        </div>
+    </div>
+    <div class="skills-category">
+        <h4 class="skills-title"><span class="skill-badge advanced">Avanzado</span> Normativa y Gestión</h4>
+        <div class="skills-list">
+            <span class="skill-tag">Reglamentaciones Edilicias</span>
+            <span class="skill-tag">Fiscalización de Obra</span>
+            <span class="skill-tag">Microsoft Project</span>
+        </div>
+    </div>
+    
+    <div class="skills-category">
+        <h4 class="skills-title"><span class="skill-badge intermediate">Intermedio</span> Ingeniería</h4>
+        <div class="skills-list">
+            <span class="skill-tag">Cálculo Estructural</span>
+            <span class="skill-tag">Presupuestos</span>
+            <span class="skill-tag">Análisis de Datos</span>
+            <span class="skill-tag">Informes Técnicos</span>
+        </div>
+    </div>
+    
+    
+    <div class="skills-category">
+        <h4 class="skills-title"><span class="skill-badge soft">⚙️</span> Aptitudes</h4>
+        <div class="skills-list">
+            <span class="skill-tag soft">Rigor Técnico</span>
+            <span class="skill-tag soft">Resolución de Problemas</span>
+            <span class="skill-tag soft">Capacidad Analítica</span>
+            <span class="skill-tag soft">Trabajo Colaborativo</span>
+            <span class="skill-tag soft">Adaptabilidad</span>
+            <span class="skill-tag soft">Responsabilidad</span>
+            <span class="skill-tag soft">Organización</span>
+        </div>
+    </div>
+</div></div>
+                    
+    <!-- SECCIÓN DE CONTACTO (mejorada) -->
+<section id="contacto" class="contact-section">
+    <div class="container">
+        <div class="contact-card">
+            
+            <div class="section-header">
+                <span class="section-badge">Conectemos</span>
+                <h2>
+                    <i class="fas fa-address-card"></i> Contacto
+                </h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-grid-modern">
+                
+                <div class="contact-item-modern" data-contacto="francocarlosmmo@gmail.com">
+                    <div class="contact-icon-modern">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info-modern">
+                        <div class="contact-label-modern">Email</div>
+                        <div class="contact-value-modern">francocarlosmmo@gmail.com</div>
+                    </div>
+                    <div class="contact-copy-modern">
+                        <i class="fas fa-copy"></i>
+                        <span>Copiar</span>
+                    </div>
+                </div>
+                
+                <div class="contact-item-modern" data-contacto="+5493548604435">
+                    <div class="contact-icon-modern">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-info-modern">
+                        <div class="contact-label-modern">Teléfono</div>
+                        <div class="contact-value-modern">+54 9 3548-604435</div>
+                    </div>
+                    <div class="contact-copy-modern">
+                        <i class="fas fa-copy"></i>
+                        <span>Copiar</span>
+                    </div>
+                </div>                
+            </div>
+            
+            <div class="contact-footer">
+                <div class="location-badge">
+                    <i class="fas fa-map-marker-alt"></i> Ciudad de Córdoba, Argentina
+                </div>
+                <div class="availability-badge">
+                    <i class="fas fa-clock"></i> Disponibilidad para nuevos proyectos
+                </div>
+                <div class="portfolio-badge">
+                    <i class="fas fa-file-pdf"></i> CV e Informes disponibles
+                </div>
+            </div>
+            
+            <div class="contact-toast" id="copyToast">
+                <i class="fas fa-check-circle"></i>
+                <span>¡Copiado al portapapeles!</span>
+            </div>
+            
+        </div>
+    </div>
+</section>
+    <!-- FOOTER -->
+    <footer class="modern-footer">
+        <div class="footer-content">
+            <p>© 2026 Rodrigo Emanuel San Martin Bustos · Técnico Económico en ERSeP · Estudiante de Economía · Apasionado por el Software y Datos</p>
+        </div>
+    </footer>
+
+
+    <!-- MODAL para nota del rectorado (centro) actualizada con los datos del Rectorado de la UNC -->
+
+    <!-- MODAL para CV COMPLETO (similar al del rectorado) -->
+<div id="cvModal" class="modal-overlay">
+    <div class="modal-card" style="max-width: 950px;">
+        <h3><i class="fas fa-file-alt"></i> Currículum Vitae · Franco Adrián Carlos</h3>
+        
+        <div class="modal-two-columns">
+            <div class="modal-main">
+                <div class="letter-head">
+                    <p><strong>FRANCO ADRIÁN CARLOS</strong><br>
+                    Maestro Mayor de Obras · Estudiante de Ingeniería Civil (4to año)</p>
+                </div>
+                
+                <div class="letter-body">
+                    <h4>📘 Formación Académica</h4>
+                    <p><strong>Ingeniería Civil</strong> · UTN - Facultad Regional Córdoba (Cursando 4to año)<br>
+                    <strong>Maestro Mayor de Obras</strong> · IPET N°339 · Villa Giardino · Formación técnica en diseño y ejecución de obras.</p>
+                    
+                    <h4>🏛️ Experiencia Profesional</h4>
+                    <p><strong>Participación Técnica · Municipalidad de La Falda</strong> · 2022<br>
+                    Dirección de Obras Públicas: Apoyo en relevamientos técnicos, control de documentación de obra y fiscalización inicial de proyectos de infraestructura urbana.</p>
+                    
+                    <p><strong>Desarrollo Técnico · Proyectos UTN Córdoba</strong> · 2023-Actualidad<br>
+                    Simulaciones de análisis estructural, elaboración de memorias técnicas, cómputos métricos detallados y presupuestos estimativos para obras civiles.</p>
+                    
+                    <p><strong>Prácticas Técnicas · IPET N°339</strong> · 2022<br>
+                    Diseño de planos arquitectónicos bajo normativa edilicia, supervisión de prácticas constructivas a escala y relevamientos de terreno.</p>
+                    
+                    <h4>🖥️ Habilidades Técnicas</h4>
+                    <p><strong>Avanzado:</strong> AutoCAD (2D/3D), Microsoft Excel (Análisis de datos/Tablas dinámicas), Cómputos Métricos.<br>
+                    <strong>Intermedio:</strong> Elaboración de Informes Técnicos, Presupuestos, Gestión de Documentación Obra.<br>
+                    <strong>Básico:</strong> Microsoft Project, Revit, Normativas Edilicias y Constructivas.</p>
+                    
+                    <h4>🌍 Idiomas</h4>
+                    <p><strong>Español:</strong> Nativo.<br>
+                    <strong>Inglés:</strong> Nivel Avanzado (Comunicacional con base técnica para interpretación de manuales y normas).</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="display: flex; justify-content: flex-end; gap: 1rem; margin-top: 1.5rem;">
+            <button class="close-modal" id="closeCvModalBtn">Cerrar</button>
+        </div>
+    </div>
+</div>
+
+    <!-- Script para funcionalidades: pestañas, modal rectorado, apertura de PDFs simulada con ventana nueva (dado que en entorno real se requiere el archivo, mostramos alerta con instrucción) -->
+<div id="toast-message" style="position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: #2c3e2f; color: white; padding: 10px 20px; border-radius: 40px; font-size: 0.9rem; opacity: 0; transition: opacity 0.3s; pointer-events: none; z-index: 1000;">
+        📋 Copiado al portapapeles
+    </div>
+
+    <div id="pdfModal" class="modal-overlay">
+        <div class="modal-card" style="max-width: 90%; width: 900px; max-height: 90vh;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h3 id="pdfModalTitle" style="margin: 0;"><i class="fas fa-file-pdf"></i> Visualizando documento</h3>
+                <button id="closePdfModalBtn" style="background: none; border: none; font-size: 1.8rem; cursor: pointer; color: #666;">&times;</button>
+            </div>
+            <iframe id="pdfIframe" src="" style="width: 100%; height: 65vh; border: none; border-radius: 0.8rem;"></iframe>
+            <div style="display: flex; justify-content: flex-end; gap: 1rem; margin-top: 1rem;">
+    <a id="pdfDownloadLink" href="#" target="_blank" class="btn-pdf-nota" style="text-decoration: none;">
+        <i class="fas fa-external-link-alt"></i> Abrir en nueva pestaña
+    </a>            <button id="closePdfModalBtn2" class="close-modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    </body>
+    </html>
