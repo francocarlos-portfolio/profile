@@ -2272,3 +2272,49 @@ section {
 .lang-switch.active .lang-switch-inner .lang-text {
     color: #d0e0f0;
 }
+/* Botón de CV completo */
+.cv-full-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(200, 180, 140, 0.2);
+}
+
+.btn-cv-full {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.9rem 2rem;
+    background: transparent;
+    border: 1.5px solid rgba(200, 180, 140, 0.5);
+    border-radius: 50px;
+    color: var(--text-color, #e0e0e0);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 0.3px;
+}
+
+.btn-cv-full i {
+    font-size: 1rem;
+    color: var(--accent-color, #c8b48c);
+    transition: transform 0.3s ease;
+}
+
+.btn-cv-full:hover {
+    background: rgba(200, 180, 140, 0.08);
+    border-color: rgba(200, 180, 140, 0.8);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transform: translateY(-1px);
+}
+
+.btn-cv-full:hover i.fa-arrow-right {
+    transform: translateX(4px);
+}
+
+.btn-cv-full:active {
+    transform: translateY(0);
+}
